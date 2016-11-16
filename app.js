@@ -13,12 +13,14 @@ $(document).ready(function() {
 
     // change sizes
     $("#make-big").on("click", function() {
-        $("#big-div").css("height", "600px");
-        $("#big-div").css("width", "300%");
+        $("#big-div")
+            .css("height", "600px");
+            .css("width", "300%");
     });
     $("#make-small").on("click", function() {
-        $("#small-div").css("height", "100px");
-        $("#small-div").css("width", "50%");
+        $("#small-div")
+            .css("height", "100px");
+            .css("width", "50%");
     });
     $("#make-animate").on("click", function() {
         $("#animate-div").addClass("animate");
